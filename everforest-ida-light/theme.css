@@ -1,0 +1,365 @@
+@importtheme "_base";
+
+@def everforest_light_highlight rgba(223, 105, 186, 0.22);
+
+QWidget
+{
+    background-color: #FDF6E3;
+    color: #5C6A72;
+    selection-background-color: #EAEDC8;
+    selection-color: #5C6A72;
+    alternate-background-color: #F4F0D9;
+}
+
+QMainWindow,
+QDialog,
+QDockWidget,
+QFrame,
+QGroupBox,
+QStackedWidget,
+QAbstractScrollArea,
+QScrollArea
+{
+    background-color: #FDF6E3;
+    color: #5C6A72;
+}
+
+QDockWidget::title
+{
+    background-color: #EFEBD4;
+    color: #5C6A72;
+    text-align: left;
+    padding: 2px 6px 2px 6px;
+    border-bottom: 1px solid #E0DCC7;
+}
+
+QLabel,
+QCheckBox,
+QRadioButton
+{
+    background: transparent;
+    color: #5C6A72;
+}
+
+QMenuBar,
+QMenu,
+QStatusBar,
+QToolBar,
+QTabWidget::pane
+{
+    background-color: #EFEBD4;
+    color: #5C6A72;
+    border: 1px solid #E0DCC7;
+}
+
+QMenuBar::item,
+QMenu::item,
+QStatusBar QLabel
+{
+    background: transparent;
+    color: #5C6A72;
+}
+
+QMenuBar::item:selected,
+QMenu::item:selected,
+QMenu::separator
+{
+    background-color: #EAEDC8;
+}
+
+QTabBar::tab
+{
+    background-color: #EFEBD4;
+    color: #708089;
+    border: 1px solid #E0DCC7;
+    padding: 4px 10px;
+}
+
+QTabBar::tab:selected
+{
+    background-color: #F4F0D9;
+    color: #5C6A72;
+}
+
+QTabBar::tab:hover,
+QToolButton:hover,
+QPushButton:hover,
+QComboBox:hover
+{
+    background-color: #EAEDC8;
+}
+
+QTreeView,
+QListView,
+QTableView,
+QTableWidget
+{
+    background-color: #FDF6E3;
+    alternate-background-color: #F4F0D9;
+    color: #5C6A72;
+    gridline-color: #E0DCC7;
+    border: 1px solid #E0DCC7;
+    outline: 0;
+}
+
+QTreeView::item:selected,
+QListView::item:selected,
+QTableView::item:selected,
+QTableWidget::item:selected
+{
+    background-color: #EAEDC8;
+    color: #5C6A72;
+}
+
+QHeaderView::section
+{
+    background-color: #EFEBD4;
+    color: #708089;
+    border: 1px solid #E0DCC7;
+    padding: 0px 4px 0px 4px;
+    margin: 0px;
+}
+
+QLineEdit,
+QTextEdit,
+QPlainTextEdit,
+QAbstractSpinBox,
+QComboBox
+{
+    background-color: #FFFBEF;
+    color: #5C6A72;
+    border: 1px solid #BDC3AF;
+    selection-background-color: #EAEDC8;
+    selection-color: #5C6A72;
+}
+
+QPushButton
+{
+    background-color: #F4F0D9;
+    color: #5C6A72;
+    border: 1px solid #BDC3AF;
+    padding: 4px 8px;
+}
+
+QToolButton
+{
+    background-color: transparent;
+    color: #5C6A72;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+QToolBar QToolButton,
+QDockWidget QToolButton
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QTableCornerButton::section
+{
+    background-color: #EFEBD4;
+    border: 1px solid #E0DCC7;
+    padding: 0px;
+    margin: 0px;
+}
+
+QAbstractItemView
+{
+    padding: 0px;
+    margin: 0px;
+    show-decoration-selected: 1;
+}
+
+QAbstractItemView::item
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+QToolBar QToolButton:hover,
+QDockWidget QToolButton:hover,
+QDockWidget::close-button:hover,
+QDockWidget::float-button:hover
+{
+    background-color: #EAEDC8;
+    border: 1px solid #BDC3AF;
+}
+
+QDockWidget::close-button,
+QDockWidget::float-button
+{
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+QPushButton:pressed,
+QToolButton:pressed,
+QComboBox:on
+{
+    background-color: #E6E2CC;
+}
+
+QSplitter::handle
+{
+    background-color: #E0DCC7;
+}
+
+QScrollBar
+{
+    background-color: #EFEBD4;
+}
+
+QScrollBar::handle
+{
+    background-color: #BDC3AF;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:hover
+{
+    background-color: #A6B0A0;
+}
+
+CustomIDAMemo
+{
+    border: none;
+
+    qproperty-line-fg-default                     : #5C6A72;     /* Default                                       */
+    qproperty-line-fg-regular-comment             : #939F91;     /* Regular comment                               */
+    qproperty-line-fg-repeatable-comment          : #A6B0A0;     /* Repeatable comment                            */
+    qproperty-line-fg-automatic-comment           : #A6B0A0;     /* Automatic comment                             */
+    qproperty-line-fg-insn                        : #F85552;     /* Instruction                                   */
+    qproperty-line-fg-dummy-data-name             : #3A94C5;     /* Dummy Data Name                               */
+    qproperty-line-fg-regular-data-name           : #3A94C5;     /* Regular Data Name                             */
+    qproperty-line-fg-demangled-name              : #8DA101;     /* Demangled Name                                */
+    qproperty-line-fg-punctuation                 : #829181;     /* Punctuation                                   */
+    qproperty-line-fg-charlit-in-insn             : #35A77C;     /* Char constant                                 */
+    qproperty-line-fg-strlit-in-insn              : #8DA101;     /* String constant                               */
+    qproperty-line-fg-numlit-in-insn              : #DF69BA;     /* Numeric constant                              */
+    qproperty-line-fg-void-opnd                   : #F57D26;     /* Void operand                                  */
+    qproperty-line-fg-code-xref                   : #35A77C;     /* Code reference                                */
+    qproperty-line-fg-data-xref                   : #3A94C5;     /* Data reference                                */
+    qproperty-line-fg-code-xref-to-tail           : #F85552;     /* Code reference to tail byte                   */
+    qproperty-line-fg-data-xref-to-tail           : #DFA000;     /* Data reference to tail byte                   */
+    qproperty-line-fg-error                       : #F85552;     /* Error or problem                              */
+    qproperty-line-fg-line-prefix                 : #A6B0A0;     /* Line prefix                                   */
+    qproperty-line-fg-opcode-byte                 : #708089;     /* Opcode bytes                                  */
+    qproperty-line-fg-extra-line                  : #939F91;     /* Extra line                                    */
+    qproperty-line-fg-alt-opnd                    : #DF69BA;     /* Alternative operand                           */
+    qproperty-line-fg-hidden                      : #A6B0A0;     /* Hidden name                                   */
+    qproperty-line-fg-libfunc                     : #35A77C;     /* Library function name                         */
+    qproperty-line-fg-locvar                      : #F57D26;     /* Local variable name                           */
+    qproperty-line-fg-dummy-code-name             : #8DA101;     /* Dummy code name                               */
+    qproperty-line-fg-asm-directive               : #DF69BA;     /* Assembler directive                           */
+    qproperty-line-fg-macro                       : #DF69BA;     /* Macro                                         */
+    qproperty-line-fg-strlit-in-data              : #35A77C;     /* String constant in data directive             */
+    qproperty-line-fg-charlit-in-data             : #35A77C;     /* Char constant in data directive               */
+    qproperty-line-fg-numlit-in-data              : #DF69BA;     /* Numeric constant in data directive            */
+    qproperty-line-fg-keyword                     : #F85552;     /* Keywords (offset, byte ptr, near)             */
+    qproperty-line-fg-register-name               : #F57D26;     /* Register name                                 */
+    qproperty-line-fg-import-name                 : #DF69BA;     /* Imported name                                 */
+    qproperty-line-fg-segment-name                : #DFA000;     /* Segment name                                  */
+    qproperty-line-fg-dummy-unknown-name          : #A6B0A0;     /* Dummy unknown name                            */
+    qproperty-line-fg-code-name                   : #8DA101;     /* Regular Code Name                             */
+    qproperty-line-fg-unknown-name                : #3A94C5;     /* Regular Unknown Name                          */
+    qproperty-line-fg-collapsed-line              : #708089;     /* Collapsed line                                */
+    qproperty-line-fg-patched-bytes               : #E66868;
+    qproperty-line-fg-unsaved-changes             : #F57D26;
+
+    qproperty-line-bg-default                     : #FDF6E3;     /* Default background                            */
+    qproperty-line-bg-selected                    : #EAEDC8;     /* Selected background                           */
+    qproperty-line-bg-highlight                   : ${everforest_light_highlight};
+    qproperty-line-bg-bpt-enabled                 : #FDE3DA;
+    qproperty-line-bg-bpt-disabled                : #F0F1D2;
+    qproperty-line-bg-bpt-unavailable             : #FAEDCD;
+
+    qproperty-line-pfx-libfunc                    : #35A77C;     /* Line prefix: Library function                 */
+    qproperty-line-pfx-func                       : #708089;     /* Line prefix: Regular function                 */
+    qproperty-line-pfx-insn                       : #F85552;     /* Line prefix: Single instruction               */
+    qproperty-line-pfx-data                       : #A6B0A0;     /* Line prefix: Data bytes                       */
+    qproperty-line-pfx-unexplored                 : #DFA000;     /* Line prefix: Unexplored byte                  */
+    qproperty-line-pfx-extern                     : #DF69BA;     /* Line prefix: External name definition segment */
+    qproperty-line-pfx-current-line               : #93B259;     /* Line prefix: Current line                     */
+    qproperty-line-pfx-current-item               : #3A94C5;     /* Line prefix: Current item                     */
+    qproperty-line-pfx-hidden-line                : #708089;     /* Line prefix: Hidden line                      */
+    qproperty-line-pfx-lumina                     : #35A77C;     /* Line prefix: Lumina                           */
+
+    qproperty-graph-bg-top                        : #EFEBD4;
+    qproperty-graph-bg-bottom                     : #F4F0D9;
+    qproperty-graph-node-title-normal             : #5C6A72;
+    qproperty-graph-node-title-selected           : #708089;
+    qproperty-graph-node-title-current            : #3A94C5;
+    qproperty-graph-node-frame-group              : #DFA000;
+    qproperty-graph-node-frame-selected           : #93B259;
+    qproperty-graph-node-shadow                   : #BDC3AF;
+    qproperty-graph-node-high1                    : #F0F1D2;
+    qproperty-graph-node-high2                    : #FDE3DA;
+    qproperty-graph-node-foreign                  : #F85552;
+    qproperty-graph-edge-normal                   : #3A94C5;
+    qproperty-graph-edge-yes                      : #8DA101;
+    qproperty-graph-edge-no                       : #F85552;
+    qproperty-graph-edge-high                     : #DFA000;
+    qproperty-graph-edge-selected                 : #F57D26;
+
+    qproperty-bookmark-star-outline               : #5C6A72;
+}
+
+CustomIDAMemo[hints="true"]
+{
+    qproperty-line-bg-default: #EFEBD4;
+}
+
+CustomIDAMemo[debugging="true"]
+{
+    qproperty-line-bg-default: #F4F0D9;
+}
+
+xref_tree_t
+{
+    qproperty-function-name-color:        #8DA101;
+    qproperty-library-function-color:     #35A77C;
+    qproperty-imported-function-color:    #DF69BA;
+    qproperty-data-name-color:            #3A94C5;
+    qproperty-regular-data-name-color:    #3A94C5;
+    qproperty-string-literal-color:       #8DA101;
+    qproperty-data-string-color:          #35A77C;
+    qproperty-numeric-constant-color:     #DF69BA;
+    qproperty-data-numeric-color:         #DF69BA;
+    qproperty-keyword-color:              #F85552;
+    qproperty-symbol-color:               #829181;
+    qproperty-register-color:             #F57D26;
+    qproperty-local-name-color:           #F57D26;
+    qproperty-code-reference-color:       #35A77C;
+    qproperty-data-reference-color:       #3A94C5;
+    qproperty-prefix-color:               #A6B0A0;
+    qproperty-tree-background-color:      #FDF6E3;
+    qproperty-search-match-color:         ${everforest_light_highlight};
+}
+
+xref_tree_t QTreeView::item:selected,
+xref_tree_t QTreeView::branch:selected
+{
+    background-color: #EAEDC8;
+    color: #5C6A72;
+}
+
+/* Re-introduce branch indicators (styling ::branch disables native rendering) */
+xref_tree_t QTreeView::branch:has-children:!has-siblings:closed,
+xref_tree_t QTreeView::branch:closed:has-children:has-siblings {
+    border-image: none;
+    image: url(:/IDAG/resources/collapsible/closed.png);
+}
+
+xref_tree_t QTreeView::branch:open:has-children:!has-siblings,
+xref_tree_t QTreeView::branch:open:has-children:has-siblings {
+    border-image: none;
+    image: url(:/IDAG/resources/collapsible/open.png);
+}
